@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Perch</string>
+
+    <!-- Perch card -->
+    <string name="perch_next_label">接下来</string>
+    <string name="nothing_perched">没有栖息的任务</string>
+    <string name="empty_prompt">现在最重要的一件事是什么？</string>
+    <string name="empty_hint">添加一个任务并开始一段专注。Perch 会一直停在你放它的地方。</string>
+    <string name="start_block">开始 %1$d 分钟</string>
+    <string name="focusing">专注中</string>
+    <string name="paused">已暂停</string>
+    <string name="paused_for">已暂停 · %1$s</string>
+    <string name="meta_focus">共 %1$d 分钟 · 第 %2$d/%3$d 段 · %4$s 开始</string>
+    <string name="meta_focus_short">共 %1$d 分钟 · 第 %2$d/%3$d 段</string>
+    <string name="extend_ten">+10 分钟</string>
+    <string name="cd_pause">暂停</string>
+    <string name="cd_resume">继续</string>
+    <string name="cd_land">完成这个任务</string>
+    <string name="cd_more">更多</string>
+    <string name="cd_perch_next">设为下一个</string>
+    <string name="cd_task_menu">任务选项</string>
+    <string name="cd_durations">时长设置</string>
+    <string name="cd_eye">休息眼睛</string>
+
+    <!-- More menu -->
+    <string name="menu_extend">+10 分钟</string>
+    <string name="menu_switch">换到下一个任务</string>
+    <string name="menu_finish_early">提前结束这段专注</string>
+    <string name="menu_durations">时长与目标</string>
+    <string name="menu_move_up">上移</string>
+    <string name="menu_move_down">下移</string>
+    <string name="menu_delete">删除</string>
+
+    <!-- Landing / resting -->
+    <string name="eyes_off">让眼睛离开屏幕</string>
+    <string name="look_far">看向房间远处，眨眨眼。</string>
+    <string name="resting">休息中</string>
+    <string name="long_break">长休息</string>
+    <string name="start_break">开始休息</string>
+    <string name="start_break_auto">开始休息 · %1$d</string>
+    <string name="skip_to_next">跳过 → 下一段</string>
+    <string name="skip_break">跳过休息</string>
+    <string name="back_early">提前回来</string>
+    <string name="land_task_chip">完成“%1$s”</string>
+    <string name="landed_chip">已完成</string>
+
+    <!-- Queue -->
+    <string name="add_task_placeholder">输入任务，按回车添加</string>
+    <string name="add">添加</string>
+    <string name="queue_more">还有 %1$d 项</string>
+
+    <!-- Day wire -->
+    <plurals name="tally_blocks">
+        <item quantity="other">%1$d 段</item>
+    </plurals>
+    <string name="tally_rest">专注 %1$s · 完成 %2$d 项</string>
+    <string name="tally_empty">今天还没有专注记录</string>
+    <string name="goal_of">目标 %1$s</string>
+    <string name="log">记录</string>
+
+    <!-- Log sheet -->
+    <string name="log_title">记录</string>
+    <string name="log_today">今天</string>
+    <string name="log_yesterday">昨天</string>
+    <string name="log_week">7 天</string>
+    <string name="log_total">专注 %1$s</string>
+    <string name="log_empty">还没有记录。</string>
+    <string name="log_row_focus">%1$d 分钟 · %2$s</string>
+    <string name="log_break_title">眼睛休息</string>
+    <string name="log_stopped_early">提前结束</string>
+    <string name="close">关闭</string>
+
+    <!-- Queue face of the sheet -->
+    <string name="queue_title">队列</string>
+    <string name="queue_empty">没有等待中的任务。在卡片下方添加一个。</string>
+    <string name="queue_perched">当前任务</string>
+
+    <!-- Durations popup -->
+    <string name="durations_title">时长与目标</string>
+    <string name="focus_minutes">专注时长（分钟）</string>
+    <string name="break_minutes">休息（分钟）</string>
+    <string name="long_break_minutes">长休息（分钟）</string>
+    <string name="goal_minutes">每日目标（分钟）</string>
+    <string name="done">完成</string>
+
+    <!-- Dialogs -->
+    <string name="finish_early_title">提前结束这段专注？</string>
+    <string name="finish_early_body">将为“%2$s”记录 %1$d 分钟。</string>
+    <string name="finish_early_body_no_task">将记录 %1$d 分钟。</string>
+    <string name="finish_early_confirm">结束</string>
+    <string name="delete_task_title">删除这个任务？</string>
+    <string name="delete_task_body">“%1$s”将从队列中移除。</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+
+    <!-- Snackbars -->
+    <string name="landed_snack">已完成：%1$s</string>
+    <string name="undo">撤销</string>
+    <string name="next_up_snack">下一个：%1$s</string>
+    <string name="logged_snack">已记录 %1$d 分钟</string>
+    <string name="load_failed">无法读取已保存的任务，已重新开始。</string>
+
+    <!-- Coachmark -->
+    <string name="coachmark_text">把我放在显示器下方，我会一直待在那里。</string>
+    <string name="got_it">知道了</string>
+
+    <!-- Durations as text -->
+    <string name="duration_h_m">%1$d 小时 %2$d 分钟</string>
+    <string name="duration_h">%1$d 小时</string>
+    <string name="duration_m">%1$d 分钟</string>
+</resources>

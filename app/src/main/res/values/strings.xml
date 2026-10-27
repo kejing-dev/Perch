@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Perch</string>
+
+    <!-- Perch card -->
+    <string name="perch_next_label">Perch next</string>
+    <string name="nothing_perched">Nothing perched</string>
+    <string name="empty_prompt">What\'s the one thing?</string>
+    <string name="empty_hint">Add a task and start a focus block. Perch stays where you park it.</string>
+    <string name="start_block">Start %1$d min</string>
+    <string name="focusing">Focusing</string>
+    <string name="paused">Paused</string>
+    <string name="paused_for">Paused · %1$s</string>
+    <string name="meta_focus">left of %1$d · block %2$d of %3$d · began %4$s</string>
+    <string name="meta_focus_short">left of %1$d · block %2$d of %3$d</string>
+    <string name="extend_ten">+10 min</string>
+    <string name="cd_pause">Pause</string>
+    <string name="cd_resume">Resume</string>
+    <string name="cd_land">Land this task</string>
+    <string name="cd_more">More</string>
+    <string name="cd_perch_next">Perch next</string>
+    <string name="cd_task_menu">Task options</string>
+    <string name="cd_durations">Durations</string>
+    <string name="cd_eye">Eye rest</string>
+
+    <!-- More menu -->
+    <string name="menu_extend">+10 min</string>
+    <string name="menu_switch">Switch to next task</string>
+    <string name="menu_finish_early">Finish block early</string>
+    <string name="menu_durations">Durations &amp; goal</string>
+    <string name="menu_move_up">Move up</string>
+    <string name="menu_move_down">Move down</string>
+    <string name="menu_delete">Delete</string>
+
+    <!-- Landing / resting -->
+    <string name="eyes_off">Eyes off the screen</string>
+    <string name="look_far">Look far, into the room. Blink.</string>
+    <string name="resting">Resting</string>
+    <string name="long_break">Long break</string>
+    <string name="start_break">Start break</string>
+    <string name="start_break_auto">Start break · %1$d</string>
+    <string name="skip_to_next">Skip → next</string>
+    <string name="skip_break">Skip break</string>
+    <string name="back_early">Back early</string>
+    <string name="land_task_chip">Land “%1$s”</string>
+    <string name="landed_chip">Landed</string>
+
+    <!-- Queue -->
+    <string name="add_task_placeholder">Add a task, press Enter</string>
+    <string name="add">Add</string>
+    <string name="queue_more">+%1$d more</string>
+
+    <!-- Day wire -->
+    <plurals name="tally_blocks">
+        <item quantity="one">%1$d block</item>
+        <item quantity="other">%1$d blocks</item>
+    </plurals>
+    <string name="tally_rest">%1$s focused · %2$d landed</string>
+    <string name="tally_empty">No blocks yet today</string>
+    <string name="goal_of">of %1$s goal</string>
+    <string name="log">Log</string>
+
+    <!-- Log sheet -->
+    <string name="log_title">Log</string>
+    <string name="log_today">Today</string>
+    <string name="log_yesterday">Yesterday</string>
+    <string name="log_week">7 days</string>
+    <string name="log_total">%1$s focused</string>
+    <string name="log_empty">Nothing logged yet.</string>
+    <string name="log_row_focus">%1$d min · %2$s</string>
+    <string name="log_break_title">Eye rest</string>
+    <string name="log_stopped_early">stopped early</string>
+    <string name="close">Close</string>
+
+    <!-- Queue face of the sheet -->
+    <string name="queue_title">Queue</string>
+    <string name="queue_empty">Nothing waiting. Add a task below the card.</string>
+    <string name="queue_perched">Perched</string>
+
+    <!-- Durations popup -->
+    <string name="durations_title">Durations &amp; goal</string>
+    <string name="focus_minutes">Focus block (min)</string>
+    <string name="break_minutes">Break (min)</string>
+    <string name="long_break_minutes">Long break (min)</string>
+    <string name="goal_minutes">Daily goal (min)</string>
+    <string name="done">Done</string>
+
+    <!-- Dialogs -->
+    <string name="finish_early_title">End this block early?</string>
+    <string name="finish_early_body">%1$d min will be logged for “%2$s”.</string>
+    <string name="finish_early_body_no_task">%1$d min will be logged.</string>
+    <string name="finish_early_confirm">End block</string>
+    <string name="delete_task_title">Delete this task?</string>
+    <string name="delete_task_body">“%1$s” will be removed from the queue.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Snackbars -->
+    <string name="landed_snack">Landed: %1$s</string>
+    <string name="undo">Undo</string>
+    <string name="next_up_snack">Next up: %1$s</string>
+    <string name="logged_snack">%1$d min logged</string>
+    <string name="load_failed">Couldn\'t read saved tasks. Starting fresh.</string>
+
+    <!-- Coachmark -->
+    <string name="coachmark_text">Park me under your monitor. I stay put.</string>
+    <string name="got_it">Got it</string>
+
+    <!-- Durations as text -->
+    <string name="duration_h_m">%1$d h %2$d m</string>
+    <string name="duration_h">%1$d h</string>
+    <string name="duration_m">%1$d m</string>
+</resources>

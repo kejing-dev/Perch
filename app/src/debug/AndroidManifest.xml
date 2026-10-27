@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- Debug builds only: lets adb drive the state machine for screenshot-based iteration. -->
+        <receiver
+            android:name=".platform.DebugCommandReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="io.embodit.perch.DEBUG" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
